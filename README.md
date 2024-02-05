@@ -5,6 +5,7 @@ This is an App that consumes some web components.
 # Prerequisites
 
 ## node
+
 It's recommended to use [nvm](https://github.com/nvm-sh/nvm) to install your node version.
 
 Then run
