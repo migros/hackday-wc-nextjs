@@ -1,6 +1,13 @@
 'use client';
 
-export const Pricing = () => {
+export type PricingProps = {
+    children?: React.ReactNode;
+};
+
+/**
+ * I am a client component
+ */
+export const Pricing = ({ children }: PricingProps) => {
     return (
         <div className="bg-white py-24 sm:py-32">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -116,6 +123,7 @@ export const Pricing = () => {
                     </div>
                 </div>
             </div>
+            {children}
         </div>
     );
 };

@@ -1,8 +1,11 @@
+import { FrequentlyAskedQuestions } from '@repo/ui/FrequentlyAskedQuestions';
 import { Pricing } from '@repo/ui/Pricing';
 
 const Page = () => (
     <main>
-        <Pricing></Pricing>
+        <Pricing>
+            <FrequentlyAskedQuestions />
+        </Pricing>
     </main>
 );
 

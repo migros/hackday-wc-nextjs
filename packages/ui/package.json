@@ -3,7 +3,8 @@
     "version": "0.0.0",
     "private": true,
     "exports": {
-        "./Pricing": "./src/Pricing/pricing.tsx"
+        "./Pricing": "./src/Pricing/pricing.tsx",
+        "./FrequentlyAskedQuestions": "./src/FrequentlyAskedQuestions/frequentlyAskedQuestions.tsx"
     },
     "scripts": {
         "lint": "eslint . --max-warnings 0",
