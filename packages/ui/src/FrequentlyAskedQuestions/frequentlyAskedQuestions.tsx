@@ -1,4 +1,5 @@
 import 'server-only';
+import { ContactSection } from '../ContactSection/contactSection';
 
 /**
  * I am a server component
@@ -36,6 +37,9 @@ export const FrequentlyAskedQuestions = () => {
                     </div>
                 </dl>
             </div>
+
+            {/* I am including a client component */}
+            <ContactSection />
         </div>
     );
 };
