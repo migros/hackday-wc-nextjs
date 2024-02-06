@@ -1,5 +1,7 @@
 'use client';
 
+import { AbcButton, AbcButtonSSR } from 'abc-web-components-react-wrapper';
+
 export type PricingProps = {
     children?: React.ReactNode;
 };
@@ -123,6 +125,9 @@ export const Pricing = ({ children }: PricingProps) => {
                     </div>
                 </div>
             </div>
+            <AbcButton onClick={() => alert('woop')} variant="primary">
+                Button inside client component
+            </AbcButton>
             {children}
         </div>
     );

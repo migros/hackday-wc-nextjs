@@ -1,5 +1,6 @@
 import 'server-only';
 import { ContactSection } from '../ContactSection/contactSection';
+import { AbcButtonSSR } from 'abc-web-components-react-wrapper';
 
 /**
  * I am a server component
@@ -40,6 +41,9 @@ export const FrequentlyAskedQuestions = () => {
 
             {/* I am including a client component */}
             <ContactSection />
+            <AbcButtonSSR href="https://google.com" variant="primary" as="link">
+                Button inside FAQ
+            </AbcButtonSSR>
         </div>
     );
 };
